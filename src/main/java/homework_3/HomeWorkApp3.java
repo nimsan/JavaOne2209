@@ -78,6 +78,7 @@ public class HomeWorkApp3 {
      * индексы таких элементов равны, то есть [0][0], [1][1], [2][2], …, [n][n];
      */
     public static void arrDiagonal() {
+
         int[][] arr4 = new int[4][4];
         arr4[0][0] = 1;
         arr4[1][1] = 1;
@@ -87,6 +88,7 @@ public class HomeWorkApp3 {
         arr4[1][2] = 1;
         arr4[2][1] = 1;
         arr4[3][0] = 1;
+
         for (int i = 0; i < arr4.length; i++) {
             for (int j = 0; j < arr4.length; j++) {
                 System.out.print(arr4[i][j] + " ");

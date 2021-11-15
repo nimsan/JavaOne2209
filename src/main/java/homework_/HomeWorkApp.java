@@ -2,15 +2,17 @@ package homework_;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
-    printThreeWords();
-    checkSumSign();
-    printColor();
-    compareNumbers();
+        printThreeWords();
+        checkSumSign();
+        printColor();
+        compareNumbers();
     }
+
     private static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
+
     }
 
     public static void checkSumSign() {
@@ -19,11 +21,12 @@ public class HomeWorkApp {
         if (a + b >= 0) {
             System.out.println("Сумма положительная");
         }
-        if (a + b < 0){
+        if (a + b < 0) {
             System.out.println("Сумма отрицательная");
         }
 
     }
+
     public static void printColor() {
         int value = 110;
 
@@ -38,15 +41,18 @@ public class HomeWorkApp {
         }
     }
 
+
+
     public static void compareNumbers() {
-      int a = 5;
-      int b = 7;
-      if (a >= b) {
-          System.out.println("a>=b");
-      }
-      if (a < b) {
-          System.out.println("a<b");
-      }
+        int a = 5;
+        int b = 7;
+        if (a >= b) {
+            System.out.println("a>=b");
+
+        }
+        if (a < b) {
+            System.out.println("a<b");
+        }
 
 
     }
