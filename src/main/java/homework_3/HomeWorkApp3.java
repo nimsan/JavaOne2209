@@ -59,6 +59,7 @@ public class HomeWorkApp3 {
             }
         }
 
+
         System.out.println();
 
         System.out.println();//Space

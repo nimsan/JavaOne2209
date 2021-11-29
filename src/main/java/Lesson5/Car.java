@@ -44,4 +44,11 @@ public class Car {
                 ", model='" + model + '\'' +
                 '}';
     }
+    //lesson6
+    public static void summaryInfo() {
+        System.out.println("Автомобиль придумал Генри Форд");
+
+    }
+
 }
+
