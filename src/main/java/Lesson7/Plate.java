@@ -4,8 +4,13 @@ public class Plate {
     private int amountOfFood;
 
     public Plate(int amountOfFood) {
-        this.amountOfFood = amountOfFood;
+        if (amountOfFood>0) {
+            this.amountOfFood = amountOfFood;
+        } else {
+            System.out.println("в тарелке не осталось еды");
+        }
     }
+
 
     public int getAmountOfFood() {
         return amountOfFood;
@@ -17,6 +22,7 @@ public class Plate {
 
     /**
      * Уменьшить кол-во еды в тарелке
+     *
      * @param amount
      */
     public void decreaseAmountofFood(int amount) {

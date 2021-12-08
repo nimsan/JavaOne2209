@@ -30,9 +30,9 @@ public class Cat {
      * Даем коту тарелку и он из нее ест
      * * @param plate (тарелка от куда поесть)
      */
-    public void eat(Plate plate) {
+    public void eat (Plate plate) {
         if (this.appetite > plate.getAmountOfFood()) {
-            // не наелся
+            //System.out.println("Cat не наелся");// не наелся
         }
         plate.decreaseAmountofFood(this.appetite);
     }
